@@ -1,0 +1,9 @@
+# Ignore large model and dataset files
+*.csv
+*.pkl
+*.zip
+node_modules/
+__pycache__/
+.vscode/
+.idea/
+*.pack

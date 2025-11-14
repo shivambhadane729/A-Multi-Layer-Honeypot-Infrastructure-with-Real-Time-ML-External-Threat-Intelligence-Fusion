@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: #e2e8f0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Kibana-specific styles */
+.kibana-header {
+  background: linear-gradient(180deg, #000000 0%, #000000 100%);
+  border-bottom: 1px solid #333333;
+  padding: 8px 16px;
+}
+
+.kibana-panel {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 0px;
+  margin-bottom: 8px;
+}
+
+.kibana-panel-header {
+  background: #1a1a1a;
+  border-bottom: 1px solid #333333;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e2e8f0;
+  border-radius: 0px;
+}
+
+.kibana-panel-content {
+  padding: 12px;
+}
+
+.kibana-metric {
+  text-align: center;
+  padding: 16px 8px;
+}
+
+.kibana-metric-value {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f7fafc;
+  margin-bottom: 4px;
+}
+
+.kibana-metric-label {
+  font-size: 12px;
+  color: #a0aec0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.kibana-chart {
+  height: 200px;
+  position: relative;
+}
+
+.kibana-search {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  border-radius: 0px;
+  padding: 8px 12px;
+  color: #e2e8f0;
+  font-size: 14px;
+  width: 100%;
+}
+
+.kibana-search::placeholder {
+  color: #718096;
+}
+
+.kibana-search:focus {
+  outline: none;
+  border-color: #00ff00;
+  box-shadow: 0 0 0 1px #00ff00;
+}
+
+.kibana-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kibana-button {
+  background: #333333;
+  border: 1px solid #555555;
+  color: #e2e8f0;
+  padding: 6px 12px;
+  border-radius: 0px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.kibana-button:hover {
+  background: #555555;
+}
+
+.kibana-button.primary {
+  background: #00ff00;
+  border-color: #00ff00;
+  color: #000000;
+}
+
+.kibana-button.primary:hover {
+  background: #00cc00;
+}
+
+.kibana-select {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  color: #e2e8f0;
+  padding: 4px 8px;
+  border-radius: 0px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.kibana-select:focus {
+  outline: none;
+  border-color: #00ff00;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.grid-3 {
+  grid-column: span 3;
+}
+
+.grid-1 {
+  grid-column: span 1;
+}
+
+.grid-4 {
+  grid-column: span 4;
+}
+
+/* Chart.js overrides for dark theme */
+.chart-container {
+  position: relative;
+  height: 200px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a202c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}

@@ -1,0 +1,19 @@
+{
+  "total_samples": 257673,
+  "total_features": 45,
+  "attack_samples": 164673,
+  "normal_samples": 93000,
+  "attack_rate": 0.6390774353541117,
+  "attack_categories": {
+    "Normal": 93000,
+    "Generic": 58871,
+    "Exploits": 44525,
+    "Fuzzers": 24246,
+    "DoS": 16353,
+    "Reconnaissance": 13987,
+    "Analysis": 2677,
+    "Backdoor": 2329,
+    "Shellcode": 1511,
+    "Worms": 174
+  }
+}

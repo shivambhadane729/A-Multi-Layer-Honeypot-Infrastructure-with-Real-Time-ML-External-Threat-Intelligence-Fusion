@@ -1,0 +1,2 @@
+# A-Multi-Layer-Honeypot-Infrastructure-with-Real-Time-ML-External-Threat-Intelligence-Fusion
+HoneyTrace is a multi-zone honeypot system designed to detect, log, enrich, and analyze attacker behavior. It includes a fake Git server, CI/CD runner traps, real-time logging backend, Isolation Forest anomaly detection, HoneyDB threat intelligence lookup, and a React-based FSOCIETY dashboard for visualization.

@@ -1,0 +1,12 @@
+# Honeypot Services Dependencies
+# Phase 2: Consolidated Honeypot Services
+
+# Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# HTTP Requests
+requests==2.31.0
+
+# Standard library modules (included with Python)
+# uuid, hashlib, json, datetime, logging, random, time, os

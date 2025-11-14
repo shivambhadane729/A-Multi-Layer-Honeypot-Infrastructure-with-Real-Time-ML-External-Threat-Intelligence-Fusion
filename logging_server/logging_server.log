@@ -1,0 +1,632 @@
+2025-11-09 19:18:58,646 - __main__ - ERROR - Database initialization failed: near "INDEX": syntax error
+2025-11-09 19:19:03,579 - __main__ - ERROR - Database initialization failed: near "INDEX": syntax error
+2025-11-12 17:48:23,775 - __main__ - ERROR - Database initialization failed: near "INDEX": syntax error
+2025-11-12 17:50:13,266 - __main__ - INFO - Database initialized: C:\Users\shiva\Downloads\HONEYPOT\honeypot.db
+2025-11-12 17:50:13,336 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.62:5000
+2025-11-12 17:50:13,336 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-12 17:50:15,124 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:19,003 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:19,311 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:50:19,314 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:50:19,319 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:19,644 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:19,651 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:50:19,971 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:19,974 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:19] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:50:23,471 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:23] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:23,475 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:23] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:23,743 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:23] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:23,789 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:23] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:25,276 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:25] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 17:50:25,581 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:25] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 17:50:25,585 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:25] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 17:50:25,900 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:25] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 17:50:27,758 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:27] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:50:28,086 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:28] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:50:28,115 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:28] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:50:28,430 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:28] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:50:29,313 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:29] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:31,469 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:31] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:31,776 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:31] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:31,779 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:31] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:32,085 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:32] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:50:35,097 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:35] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:50:35,098 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:35] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:35,100 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:35] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:50:35,343 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:35] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:50:35,412 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:35] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:35,414 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:35] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:50:39,006 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:39] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:50,105 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:50] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:50:59,796 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:50:59] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:05,124 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:05] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:51:05,124 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:05] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:05,384 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:05] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:51:07,058 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:07] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:09,520 - __main__ - INFO - Log stored successfully: git_push from 203.0.113.42
+2025-11-12 17:51:09,521 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:09] "POST /log HTTP/1.1" 200 -
+2025-11-12 17:51:09,806 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:09] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:12,951 - __main__ - INFO - Log stored successfully: ci_job_run from 198.51.100.15
+2025-11-12 17:51:12,951 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:12] "POST /log HTTP/1.1" 200 -
+2025-11-12 17:51:15,623 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:15] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:15,625 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:15] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:15,880 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:15] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:15,944 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:15] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:16,314 - __main__ - WARNING - GeoIP lookup failed for 192.0.2.100: 429
+2025-11-12 17:51:16,335 - __main__ - INFO - Log stored successfully: file_access from 192.0.2.100
+2025-11-12 17:51:16,335 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:16] "POST /log HTTP/1.1" 200 -
+2025-11-12 17:51:19,009 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:19,993 - __main__ - INFO - Log stored successfully: file_access from 203.0.113.200
+2025-11-12 17:51:19,993 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:19] "POST /log HTTP/1.1" 200 -
+2025-11-12 17:51:20,633 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:20] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:20,633 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:20] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:20,896 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:20] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:20,952 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:20] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:23,090 - __main__ - INFO - Log stored successfully: git_pull from 192.168.1.100
+2025-11-12 17:51:23,090 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:23] "POST /log HTTP/1.1" 200 -
+2025-11-12 17:51:25,334 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:25] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:26,166 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:26] "GET /logs?limit=5 HTTP/1.1" 200 -
+2025-11-12 17:51:29,206 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:29] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:51:29,310 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:29] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:30,332 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:30] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:30,654 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:30] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:33,532 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:33] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:51:33,844 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:33] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:51:33,847 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:33] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:51:34,159 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:34] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 17:51:37,330 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:37] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:37,330 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:37] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:37,576 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:37] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:37,647 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:37] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 17:51:39,000 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:39] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:47,326 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:47] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:47,326 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:47] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:47,584 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:47] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:47,637 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:47] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 17:51:49,304 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:52,629 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:52] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:52,933 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:52] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:51:52,936 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:52] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:51:52,940 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:52] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:51:53,249 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:53] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:51:53,559 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:53] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:51:59,326 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:51:59] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:09,803 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:09] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:20,112 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:20] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:22,817 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:22] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:52:23,133 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:23] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:23,136 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:23] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:52:30,098 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:30] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:39,790 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:39] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:50,121 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:50] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:52,790 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:52] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:52:53,111 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:53] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:52:53,111 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:52:53] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:53:00,121 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:00] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:02,635 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:02,945 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:02] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:53:02,947 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:02] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:53:02,952 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:03,258 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:03] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:53:03,263 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:03,565 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:03,565 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:03] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:53:12,971 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:12] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:22,795 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:33,108 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:33] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:33,111 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:33] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:53:33,360 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:33] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:33,422 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:33] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:53:42,808 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:53:53,094 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:53:53] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:02,811 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:03,122 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:03] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:54:03,123 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:03,429 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:03] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:54:13,126 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:13] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:32,801 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:32] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:54:33,111 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:33] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:33,112 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:33] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:54:42,110 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:51,409 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:54:52,944 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:54:52] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:02,809 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:03,119 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:03] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:55:03,123 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:03,426 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:03] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:55:13,118 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:13] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:22,810 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:32,963 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:32] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:55:32,966 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:32] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:33,214 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:33] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:55:33,276 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:33] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:42,642 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:55:52,947 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:55:52] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:02,640 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:02] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:56:02,946 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:02,946 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:02] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:56:03,258 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:12,959 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:12] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:22,638 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:32,947 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:32] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:56:32,947 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:32] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:33,202 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:33] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:56:33,257 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:33] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:42,635 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:56:52,953 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:56:52] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:02,657 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:02] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:57:02,992 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:02,999 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:02] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:57:03,301 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:06,341 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:06] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:06,350 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:06] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:57:06,845 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:06] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:07,390 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:07] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:57:07,401 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:07] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:07,734 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:07] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:16,317 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:16] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:25,994 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:25] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:31,059 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:35,996 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:35] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:36,306 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:36] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:57:36,625 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:36] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:57:40,753 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:40] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:48,160 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:48,162 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:57:48,169 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:57:48,425 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:48,487 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:57:48,514 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:48,739 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:57:48,822 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:48] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:57:57,861 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:57:57] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:09,139 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:09] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:18,797 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:18] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:19,106 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:19] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:58:19,108 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:19,431 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:19] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:58:29,200 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:29] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:38,861 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:38] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:49,118 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:49] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:58:49,120 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:49,384 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:58:49,438 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:49] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:58:57,864 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:58:57] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:08,177 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:08] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:18,794 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:18] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:59:19,102 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:19,107 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:19] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:59:19,424 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:29,116 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:29] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:38,801 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:38] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:49,129 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:49,141 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:49] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 17:59:49,383 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 17:59:49,452 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:49] "GET /stats HTTP/1.1" 200 -
+2025-11-12 17:59:58,224 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 17:59:58] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:09,109 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:09] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:19,667 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:19,795 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:19] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:00:19,795 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:19] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:00:20,048 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:20] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:20,168 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:20] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:00:20,500 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:20] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:20,540 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:20] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:00:20,825 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:20] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:30,017 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:30] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:33,363 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:33] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:33,713 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:33] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:33,992 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:33] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:34,508 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:34] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:37,393 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:37] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:39,479 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:39] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:49,788 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:00:55,440 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:55] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:55,812 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:55] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:00:59,556 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:00:59] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:04,536 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:04] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:01:04,809 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:04] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:01:09,937 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:09] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:01:10,240 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:10] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:10,309 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:10] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:01:10,329 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:10] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:01:10,630 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:10] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:10,651 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:10] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:01:15,022 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:15,137 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:15] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:01:15,272 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:15] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:01:15,416 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:15,592 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:15] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:01:15,762 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:15] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:01:20,158 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:20] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:29,861 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:29] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:40,158 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:40] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:45,144 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:45] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:01:45,461 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:45] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:01:45,717 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:45] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:01:50,797 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:01:50] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:01,115 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:10,805 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:10] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:15,102 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:15,106 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:15] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:02:15,358 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:15] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:02:20,815 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:20] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:30,245 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:30] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:40,811 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:40] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:45,113 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:45] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:02:45,114 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:45] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:02:45,369 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:02:45] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:03:14,827 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:14] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:15,133 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:15] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:03:15,450 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:15] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:03:15,925 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:18,661 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:18] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:18,665 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:18] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:03:18,892 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:18] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:18,983 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:18] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:18,985 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:18] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:03:19,382 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:19] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:28,811 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:28] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:39,101 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:39] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:48,795 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:48] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:49,105 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:49] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:03:49,110 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:49] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:49,422 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:49] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:03:51,189 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:53,624 - __main__ - INFO - Log stored successfully: file_access from 6.71.137.222
+2025-11-12 18:03:53,626 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:53] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:53,640 - __main__ - INFO - Log stored successfully: ci_job_run from 201.121.183.236
+2025-11-12 18:03:53,641 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:53] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:53,658 - __main__ - INFO - Log stored successfully: ci_job_run from 55.1.12.73
+2025-11-12 18:03:53,659 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:53] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:53,670 - __main__ - INFO - Log stored successfully: file_access from 129.26.118.132
+2025-11-12 18:03:53,671 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:53] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:55,927 - __main__ - INFO - Log stored successfully: login_attempt from 192.168.248.131
+2025-11-12 18:03:55,935 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:55] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:56,230 - __main__ - INFO - Log stored successfully: git_push from 162.6.157.223
+2025-11-12 18:03:56,254 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:56] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:56,341 - __main__ - INFO - Log stored successfully: login_attempt from 50.166.44.147
+2025-11-12 18:03:56,361 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:56] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:56,674 - __main__ - WARNING - GeoIP lookup failed for 1.136.211.81: 429
+2025-11-12 18:03:56,693 - __main__ - INFO - Log stored successfully: file_access from 1.136.211.81
+2025-11-12 18:03:56,696 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:56] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:58,106 - __main__ - WARNING - GeoIP lookup failed for 200.106.3.205: 429
+2025-11-12 18:03:58,123 - __main__ - INFO - Log stored successfully: git_push from 200.106.3.205
+2025-11-12 18:03:58,127 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:58,519 - __main__ - INFO - Log stored successfully: git_push from 192.168.204.41
+2025-11-12 18:03:58,521 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:58,561 - __main__ - WARNING - GeoIP lookup failed for 42.233.172.126: 429
+2025-11-12 18:03:58,595 - __main__ - INFO - Log stored successfully: git_push from 42.233.172.126
+2025-11-12 18:03:58,621 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:58,658 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:03:58,780 - __main__ - WARNING - GeoIP lookup failed for 91.135.130.138: 429
+2025-11-12 18:03:58,802 - __main__ - INFO - Log stored successfully: file_access from 91.135.130.138
+2025-11-12 18:03:58,811 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:03:58,901 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:03:58,973 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:03:58,980 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:58] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:03:59,224 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:03:59] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:04:00,241 - __main__ - WARNING - GeoIP lookup failed for 188.174.226.193: 429
+2025-11-12 18:04:00,256 - __main__ - INFO - Log stored successfully: ci_job_run from 188.174.226.193
+2025-11-12 18:04:00,258 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:00] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:00,630 - __main__ - WARNING - GeoIP lookup failed for 49.182.179.148: 429
+2025-11-12 18:04:00,650 - __main__ - INFO - Log stored successfully: login_attempt from 49.182.179.148
+2025-11-12 18:04:00,651 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:00] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:00,682 - __main__ - INFO - Log stored successfully: git_push from 192.168.74.80
+2025-11-12 18:04:00,683 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:00] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:00,986 - __main__ - WARNING - GeoIP lookup failed for 109.188.116.191: 429
+2025-11-12 18:04:01,008 - __main__ - INFO - Log stored successfully: git_push from 109.188.116.191
+2025-11-12 18:04:01,013 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:01] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:01,509 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:01,830 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:01] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:01,833 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:01] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:01,843 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:02,245 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:02] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:02,325 - __main__ - INFO - Log stored successfully: file_access from 192.168.212.48
+2025-11-12 18:04:02,334 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:02] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:02,573 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:02] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:02,759 - __main__ - WARNING - GeoIP lookup failed for 56.85.86.206: 429
+2025-11-12 18:04:02,767 - __main__ - WARNING - GeoIP lookup failed for 118.81.91.247: 429
+2025-11-12 18:04:02,820 - __main__ - INFO - Log stored successfully: git_push from 56.85.86.206
+2025-11-12 18:04:02,825 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:02] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:02,867 - __main__ - INFO - Log stored successfully: ci_job_run from 118.81.91.247
+2025-11-12 18:04:02,869 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:02] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:03,126 - __main__ - WARNING - GeoIP lookup failed for 26.145.13.59: 429
+2025-11-12 18:04:03,142 - __main__ - INFO - Log stored successfully: file_access from 26.145.13.59
+2025-11-12 18:04:03,143 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:03] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:04,399 - __main__ - INFO - Log stored successfully: file_access from 192.168.99.34
+2025-11-12 18:04:04,401 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:04] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:04,897 - __main__ - INFO - Log stored successfully: login_attempt from 192.168.95.89
+2025-11-12 18:04:04,898 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:04] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:04,957 - __main__ - WARNING - GeoIP lookup failed for 89.236.67.166: 429
+2025-11-12 18:04:04,976 - __main__ - INFO - Log stored successfully: git_push from 89.236.67.166
+2025-11-12 18:04:04,978 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:04] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:05,249 - __main__ - WARNING - GeoIP lookup failed for 133.38.247.58: 429
+2025-11-12 18:04:05,264 - __main__ - INFO - Log stored successfully: git_push from 133.38.247.58
+2025-11-12 18:04:05,266 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:05] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:06,500 - __main__ - WARNING - GeoIP lookup failed for 76.171.220.240: 429
+2025-11-12 18:04:06,564 - __main__ - INFO - Log stored successfully: git_push from 76.171.220.240
+2025-11-12 18:04:06,577 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:06] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:06,962 - __main__ - INFO - Log stored successfully: git_push from 192.168.104.159
+2025-11-12 18:04:06,966 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:06] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:07,016 - __main__ - INFO - Log stored successfully: login_attempt from 192.168.15.188
+2025-11-12 18:04:07,017 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:07] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:07,342 - __main__ - WARNING - GeoIP lookup failed for 214.160.198.44: 429
+2025-11-12 18:04:07,359 - __main__ - INFO - Log stored successfully: git_push from 214.160.198.44
+2025-11-12 18:04:07,361 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:07] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:08,654 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:08] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:08,706 - __main__ - WARNING - GeoIP lookup failed for 144.228.19.18: 429
+2025-11-12 18:04:08,739 - __main__ - INFO - Log stored successfully: git_push from 144.228.19.18
+2025-11-12 18:04:08,772 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:08] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:09,130 - __main__ - WARNING - GeoIP lookup failed for 202.68.113.201: 429
+2025-11-12 18:04:09,163 - __main__ - INFO - Log stored successfully: file_access from 202.68.113.201
+2025-11-12 18:04:09,187 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:09] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:09,213 - __main__ - WARNING - GeoIP lookup failed for 210.208.191.207: 429
+2025-11-12 18:04:09,280 - __main__ - INFO - Log stored successfully: file_access from 210.208.191.207
+2025-11-12 18:04:09,294 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:09] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:09,460 - __main__ - WARNING - GeoIP lookup failed for 96.125.91.120: 429
+2025-11-12 18:04:09,486 - __main__ - INFO - Log stored successfully: file_access from 96.125.91.120
+2025-11-12 18:04:09,489 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:09] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:10,873 - __main__ - INFO - Log stored successfully: git_push from 192.168.27.75
+2025-11-12 18:04:10,885 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:10] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:11,297 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:11,337 - __main__ - INFO - Log stored successfully: git_push from 192.168.211.59
+2025-11-12 18:04:11,351 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:11,438 - __main__ - WARNING - GeoIP lookup failed for 44.144.205.91: 429
+2025-11-12 18:04:11,476 - __main__ - INFO - Log stored successfully: file_access from 44.144.205.91
+2025-11-12 18:04:11,491 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:11,636 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:11,649 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:11,669 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:11,684 - __main__ - WARNING - GeoIP lookup failed for 47.14.8.122: 429
+2025-11-12 18:04:11,707 - __main__ - INFO - Log stored successfully: git_push from 47.14.8.122
+2025-11-12 18:04:11,709 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:11,968 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:11,996 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:12,347 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:12] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:12,368 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:12] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:13,020 - __main__ - WARNING - GeoIP lookup failed for 211.0.50.170: 429
+2025-11-12 18:04:13,067 - __main__ - INFO - Log stored successfully: file_access from 211.0.50.170
+2025-11-12 18:04:13,079 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:13] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:13,462 - __main__ - INFO - Log stored successfully: ci_job_run from 192.168.40.214
+2025-11-12 18:04:13,464 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:13] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:13,608 - __main__ - WARNING - GeoIP lookup failed for 222.69.238.77: 429
+2025-11-12 18:04:13,626 - __main__ - INFO - Log stored successfully: git_push from 222.69.238.77
+2025-11-12 18:04:13,629 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:13] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:13,868 - __main__ - WARNING - GeoIP lookup failed for 12.229.189.224: 429
+2025-11-12 18:04:13,885 - __main__ - INFO - Log stored successfully: file_access from 12.229.189.224
+2025-11-12 18:04:13,887 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:13] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:15,144 - __main__ - INFO - Log stored successfully: malformed_upload from 192.168.201.29
+2025-11-12 18:04:15,146 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:15] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:15,575 - __main__ - WARNING - GeoIP lookup failed for 68.180.157.160: 429
+2025-11-12 18:04:15,608 - __main__ - INFO - Log stored successfully: login_attempt from 68.180.157.160
+2025-11-12 18:04:15,619 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:15] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:15,686 - __main__ - INFO - Log stored successfully: file_access from 192.168.77.232
+2025-11-12 18:04:15,688 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:15] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:15,938 - __main__ - INFO - Log stored successfully: file_access from 192.168.239.151
+2025-11-12 18:04:15,943 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:15] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:15,965 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:16,002 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:16] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:16,182 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:16] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:16,320 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:16] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:16,327 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:16] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:16,501 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:16] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:17,196 - __main__ - INFO - Log stored successfully: git_push from 192.168.103.85
+2025-11-12 18:04:17,201 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:17,539 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:17,766 - __main__ - WARNING - GeoIP lookup failed for 153.71.89.153: 429
+2025-11-12 18:04:17,815 - __main__ - INFO - Log stored successfully: git_push from 192.168.71.61
+2025-11-12 18:04:17,817 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:17,834 - __main__ - INFO - Log stored successfully: login_attempt from 153.71.89.153
+2025-11-12 18:04:17,839 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:17,950 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:17,982 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:17,996 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:17] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:18,081 - __main__ - WARNING - GeoIP lookup failed for 91.169.247.174: 429
+2025-11-12 18:04:18,106 - __main__ - INFO - Log stored successfully: file_access from 91.169.247.174
+2025-11-12 18:04:18,119 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:18] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:18,304 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:18] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:18,308 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:18] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:18,627 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:18] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:18,629 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:18] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:19,302 - __main__ - WARNING - GeoIP lookup failed for 74.213.42.155: 429
+2025-11-12 18:04:19,316 - __main__ - INFO - Log stored successfully: git_push from 74.213.42.155
+2025-11-12 18:04:19,319 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:19] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:19,945 - __main__ - WARNING - GeoIP lookup failed for 89.18.254.235: 429
+2025-11-12 18:04:19,957 - __main__ - INFO - Log stored successfully: git_push from 89.18.254.235
+2025-11-12 18:04:19,960 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:19] "POST /log HTTP/1.1" 200 -
+2025-11-12 18:04:21,823 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:21,844 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:21] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:22,233 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:22] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:22,235 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:22,271 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:22] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:22,284 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:22,649 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:23,427 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:23] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:04:23,429 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:23] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:04:23,685 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:23] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:04:23,797 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:23] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:04:31,445 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:37,506 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:37] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:04:37,510 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:37] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:04:37,757 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:37] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:04:37,884 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:37] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:04:41,456 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:45,050 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:45] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:45,068 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:45] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:45,089 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:45] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:04:45,279 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:45] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:04:45,371 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:45] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:45,390 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:45] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:04:51,446 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:04:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:02,124 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:11,808 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:15,323 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:15] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:15,364 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:15] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:05:15,580 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:15] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:05:21,806 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:32,110 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:32] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:41,445 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:41,935 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:41] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:41,959 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:41] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:42,199 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:42] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:42,292 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:42] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:46,633 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:46] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:52,162 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:52] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:52,164 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:52] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:05:52,415 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:52] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:05:56,866 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:05:56] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:02,114 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:02] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:02,117 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:02] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:06:02,376 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:02] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:06,805 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:06] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:12,121 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:12] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:06:12,146 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:12] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:12,416 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:12] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:16,803 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:16] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:21,763 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:06:21,909 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:21] "OPTIONS /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:22,029 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:22] "GET /api/live-events?limit=50 HTTP/1.1" 200 -
+2025-11-12 18:06:22,421 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:22] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:06:22,742 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:22] "OPTIONS /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:06:22,753 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:22] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:06:23,258 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:23] "GET /api/analytics HTTP/1.1" 200 -
+2025-11-12 18:06:31,860 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:06:40,972 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:40] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:06:41,280 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:41] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:06:41,287 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:41] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:06:41,608 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:41] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:06:41,757 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:06:51,769 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:06:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:01,444 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:12,140 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:12] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:07:12,147 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:12] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:12,400 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:12] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:07:21,804 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:24,845 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:24] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:07:24,869 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:24] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:07:25,094 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:25] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:07:25,166 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:25] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:07:31,451 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:42,111 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:51,444 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:07:53,717 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:53] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:07:53,731 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:53] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:07:53,966 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:53] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:07:54,046 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:07:54] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:08:01,457 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:11,763 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:12,513 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:12] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:08:12,853 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:12] "OPTIONS /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:08:12,878 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:12] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:08:13,198 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:13] "GET /api/alerts?threshold=0.85&limit=50 HTTP/1.1" 200 -
+2025-11-12 18:08:14,401 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:14] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:14,403 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:14] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:08:14,406 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:14] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:08:14,638 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:14] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:14,721 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:14] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:08:14,733 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:14] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:08:21,755 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:31,443 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:41,747 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:44,066 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:44] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:08:44,391 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:44] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:08:44,415 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:44] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:08:51,747 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:08:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:01,444 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:11,747 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:14,057 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:14] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:09:14,366 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:14] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:14,376 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:14] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:09:21,778 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:31,455 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:41,796 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:44,065 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:44] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:09:44,385 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:44] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:09:44,386 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:44] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:09:51,765 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:09:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:01,456 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:11,753 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:14,065 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:14] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:10:14,388 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:14] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:14,390 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:14] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:10:21,458 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:21] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:31,753 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:41,455 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:44,377 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:44] "OPTIONS /stats HTTP/1.1" 200 -
+2025-11-12 18:10:44,381 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:44] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:44,636 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:44] "GET /stats HTTP/1.1" 200 -
+2025-11-12 18:10:51,443 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:10:56,909 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:56] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:10:56,913 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:56] "OPTIONS /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:10:57,155 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:57] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:10:57,232 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:57] "GET /api/map-data HTTP/1.1" 200 -
+2025-11-12 18:10:58,407 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:58] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:10:58,745 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:58] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:10:58,777 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:58] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:10:59,131 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:10:59] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:11:01,761 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:11:11,797 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:11] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:11:22,135 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:22] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:11:28,802 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:28] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:11:29,126 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:29] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:11:31,798 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:31] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:11:42,107 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:11:51,820 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:51] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:11:59,129 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:59] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:11:59,379 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:11:59] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:12:01,801 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:12:01] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:12:29,114 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:12:29] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:12:29,368 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:12:29] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:12:41,827 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:12:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:12:59,137 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:12:59] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:12:59,390 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:12:59] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:13:28,836 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:13:28] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:13:29,187 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:13:29] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:13:41,808 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:13:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:13:59,146 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:13:59] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:13:59,408 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:13:59] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:14:41,802 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:14:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:14:42,134 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:14:42] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:14:42,390 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:14:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:15:41,816 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:15:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:15:42,121 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:15:42] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:15:42,433 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:15:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:16:41,811 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:16:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:16:42,129 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:16:42] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:16:42,405 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:16:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:17:41,822 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:17:41] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:17:42,130 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:17:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:17:42,136 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:17:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:18:42,126 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:18:42] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:18:42,136 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:18:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:18:42,381 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:18:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:19:41,811 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:19:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:19:42,120 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:19:42] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:19:42,440 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:19:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:20:41,808 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:20:41] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:20:42,133 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:20:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:20:42,133 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:20:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:21:41,810 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:21:41] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:21:42,120 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:21:42] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:21:42,428 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:21:42] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:22:23,323 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:23] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:22:23,331 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:23] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:22:33,796 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:33] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:22:44,184 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:44] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:22:53,814 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:53] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:22:54,177 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:54] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:22:54,421 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:22:54] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:23:03,799 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:03] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:23:14,098 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:14] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:23:23,877 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:23] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:23:24,183 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:24] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:23:24,495 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:24] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:23:42,119 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:42] "GET /health HTTP/1.1" 200 -
+2025-11-12 18:23:53,816 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:53] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:23:54,136 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:23:54] "GET /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:24:40,209 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:24:40] "OPTIONS /api/ml-insights HTTP/1.1" 200 -
+2025-11-12 18:24:52,904 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2025 18:24:52] "GET /api/ml-insights HTTP/1.1" 200 -

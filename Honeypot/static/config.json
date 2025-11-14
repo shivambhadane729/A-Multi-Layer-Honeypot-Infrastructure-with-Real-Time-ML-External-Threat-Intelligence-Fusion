@@ -1,0 +1,145 @@
+{
+  "application": {
+    "name": "Company Production App",
+    "version": "2.1.0",
+    "environment": "production",
+    "debug": false,
+    "log_level": "info"
+  },
+  "database": {
+    "host": "prod-db-cluster.internal.company.com",
+    "port": 5432,
+    "name": "production_database",
+    "username": "prod_admin",
+    "password": "SuperSecretDatabasePassword123!",
+    "ssl": true,
+    "ssl_cert": "/etc/ssl/certs/db-cert.pem",
+    "pool_size": 20,
+    "timeout": 30,
+    "retry_attempts": 3
+  },
+  "redis": {
+    "host": "prod-redis.internal.company.com",
+    "port": 6379,
+    "password": "RedisSecurePassword456!",
+    "db": 0,
+    "ssl": true,
+    "timeout": 5
+  },
+  "api": {
+    "base_url": "https://api.company.com",
+    "version": "v2",
+    "timeout": 30,
+    "retry_attempts": 3,
+    "rate_limit": 1000,
+    "cors_origin": "https://app.company.com"
+  },
+  "security": {
+    "jwt_secret": "mySuperSecretJWTKeyThatShouldNeverBeExposedInProduction",
+    "jwt_expiration": 3600,
+    "jwt_algorithm": "HS256",
+    "encryption_key": "encryption_key_abcdef123456",
+    "admin_token": "admin_token_xyz789_very_secure",
+    "oauth_secret": "oauth_secret_456789",
+    "csrf_secret": "csrf_secret_789"
+  },
+  "external_services": {
+    "stripe": {
+      "public_key": "pk_live_FAKE_STRIPE_KEY_FOR_HONEYPOT_DEMO",
+      "secret_key": "sk_live_FAKE_STRIPE_KEY_FOR_HONEYPOT_DEMO_ONLY",
+      "webhook_secret": "whsec_FAKE_WEBHOOK_SECRET_FOR_DEMO"
+    },
+    "paypal": {
+      "client_id": "live_AbCdEfGhIjKlMnOpQrStUvWxYz1234567890",
+      "client_secret": "live_1234567890abcdefghijklmnopqrstuvwxyz",
+      "webhook_id": "webhook_12345"
+    },
+    "aws": {
+      "access_key": "AKIAIOSFODNN7EXAMPLE",
+      "secret_key": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+      "region": "us-east-1",
+      "s3_bucket": "production-assets-bucket"
+    },
+    "github": {
+      "token": "ghp_1234567890abcdefghijklmnopqrstuvwxyz",
+      "webhook_secret": "webhook_secret_12345",
+      "app_id": 123456,
+      "private_key_path": "/etc/ssl/github-app-key.pem"
+    }
+  },
+  "monitoring": {
+    "datadog": {
+      "api_key": "dd_api_key_1234567890abcdef",
+      "app_key": "dd_app_key_abcdef123456",
+      "site": "datadoghq.com"
+    },
+    "newrelic": {
+      "license_key": "newrelic_license_abcdef123456",
+      "app_name": "Company Production App"
+    },
+    "sentry": {
+      "dsn": "https://sentry.io/project/1234567890",
+      "environment": "production"
+    },
+    "grafana": {
+      "api_key": "grafana_key_xyz789",
+      "url": "https://grafana.company.com"
+    }
+  },
+  "internal_services": {
+    "api_key": "internal_api_key_12345",
+    "monitoring_token": "monitoring_token_67890",
+    "service_account_key": "service_account_key_abc123"
+  },
+  "email": {
+    "smtp_host": "smtp.company.com",
+    "smtp_port": 587,
+    "smtp_username": "noreply@company.com",
+    "smtp_password": "smtp_password_123",
+    "api_key": "email_api_key_456",
+    "from_address": "noreply@company.com"
+  },
+  "notifications": {
+    "slack": {
+      "webhook_url": "https://hooks.slack.com/services/FAKE/WEBHOOK/URL_FOR_HONEYPOT_DEMO",
+      "bot_token": "xoxb-FAKE-BOT-TOKEN-FOR-HONEYPOT-DEMO-ONLY",
+      "channel": "#alerts"
+    },
+    "teams": {
+      "webhook_url": "https://company.webhook.office.com/webhookb2/12345678-1234-1234-1234-123456789012",
+      "channel": "alerts"
+    }
+  },
+  "deployment": {
+    "docker_registry": {
+      "url": "registry.company.com",
+      "username": "deploy_user",
+      "password": "DeployPassword123!"
+    },
+    "kubernetes": {
+      "cluster_url": "https://k8s.company.com",
+      "namespace": "production",
+      "service_account": "deploy-service-account",
+      "token": "k8s_deploy_token_xyz789"
+    },
+    "terraform": {
+      "state_bucket": "terraform-state-bucket",
+      "access_key": "terraform_access_key_123",
+      "secret_key": "terraform_secret_key_456"
+    }
+  },
+  "features": {
+    "user_registration": true,
+    "email_verification": true,
+    "two_factor_auth": true,
+    "api_rate_limiting": true,
+    "audit_logging": true,
+    "backup_enabled": true
+  },
+  "limits": {
+    "max_file_size": "10MB",
+    "max_requests_per_minute": 1000,
+    "max_sessions_per_user": 5,
+    "session_timeout": 3600
+  }
+}

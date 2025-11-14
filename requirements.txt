@@ -1,0 +1,22 @@
+# Honeypot Project Dependencies
+# Phase 2 & 3: Honeypot Services and Logging System
+
+# Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# HTTP Requests
+requests==2.31.0
+
+# Database
+# SQLite is included with Python standard library
+
+# Utilities
+uuid  # Included with Python standard library
+hashlib  # Included with Python standard library
+json  # Included with Python standard library
+datetime  # Included with Python standard library
+logging  # Included with Python standard library
+random  # Included with Python standard library
+time  # Included with Python standard library
+os  # Included with Python standard library

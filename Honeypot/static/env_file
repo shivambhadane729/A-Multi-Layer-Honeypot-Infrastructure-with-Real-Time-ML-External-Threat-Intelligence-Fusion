@@ -1,0 +1,96 @@
+# Environment Variables - Production Configuration
+# WARNING: This file contains sensitive information
+
+# Database Configuration
+DB_HOST=prod-db-cluster.internal.company.com
+DB_PORT=5432
+DB_NAME=production_database
+DB_USER=prod_admin
+DB_PASSWORD=SuperSecretDatabasePassword123!
+DB_SSL=true
+DB_SSL_CERT=/etc/ssl/certs/db-cert.pem
+DB_POOL_SIZE=20
+DB_TIMEOUT=30
+
+# Redis Configuration
+REDIS_HOST=prod-redis.internal.company.com
+REDIS_PORT=6379
+REDIS_PASSWORD=RedisSecurePassword456!
+REDIS_DB=0
+REDIS_SSL=true
+
+# API Keys and Secrets
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+AWS_REGION=us-east-1
+AWS_S3_BUCKET=production-assets-bucket
+
+# JWT and Authentication
+JWT_SECRET=mySuperSecretJWTKeyThatShouldNeverBeExposedInProduction
+JWT_EXPIRATION=3600
+JWT_ALGORITHM=HS256
+ADMIN_TOKEN=admin_token_xyz789_very_secure
+OAUTH_SECRET=oauth_secret_456789
+
+# External Services
+STRIPE_SECRET_KEY=sk_live_FAKE_STRIPE_KEY_FOR_HONEYPOT_DEMO_ONLY
+STRIPE_PUBLISHABLE_KEY=pk_live_FAKE_STRIPE_KEY_FOR_HONEYPOT_DEMO
+PAYPAL_CLIENT_ID=live_AbCdEfGhIjKlMnOpQrStUvWxYz1234567890
+PAYPAL_CLIENT_SECRET=live_1234567890abcdefghijklmnopqrstuvwxyz
+
+# GitHub Integration
+GITHUB_TOKEN=ghp_1234567890abcdefghijklmnopqrstuvwxyz
+GITHUB_WEBHOOK_SECRET=webhook_secret_12345
+GITHUB_APP_ID=123456
+GITHUB_PRIVATE_KEY_PATH=/etc/ssl/github-app-key.pem
+
+# Monitoring and Logging
+DATADOG_API_KEY=dd_api_key_1234567890abcdef
+NEWRELIC_LICENSE_KEY=newrelic_license_abcdef123456
+SENTRY_DSN=https://sentry.io/project/1234567890
+GRAFANA_API_KEY=grafana_key_xyz789
+
+# Internal Services
+INTERNAL_API_KEY=internal_api_key_12345
+MONITORING_TOKEN=monitoring_token_67890
+SERVICE_ACCOUNT_KEY=service_account_key_abc123
+
+# Email Configuration
+SMTP_HOST=smtp.company.com
+SMTP_PORT=587
+SMTP_USERNAME=noreply@company.com
+SMTP_PASSWORD=smtp_password_123
+EMAIL_API_KEY=email_api_key_456
+
+# Slack Integration
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/FAKE/WEBHOOK/URL_FOR_HONEYPOT_DEMO
+SLACK_BOT_TOKEN=xoxb-FAKE-BOT-TOKEN-FOR-HONEYPOT-DEMO-ONLY
+
+# Microsoft Teams Integration
+TEAMS_WEBHOOK_URL=https://company.webhook.office.com/webhookb2/12345678-1234-1234-1234-123456789012
+
+# Docker and Kubernetes
+DOCKER_REGISTRY_URL=registry.company.com
+DOCKER_REGISTRY_USERNAME=deploy_user
+DOCKER_REGISTRY_PASSWORD=DeployPassword123!
+KUBERNETES_CLUSTER_URL=https://k8s.company.com
+KUBERNETES_NAMESPACE=production
+KUBERNETES_SERVICE_ACCOUNT=deploy-service-account
+KUBERNETES_TOKEN=k8s_deploy_token_xyz789
+
+# Terraform State
+TERRAFORM_STATE_BUCKET=terraform-state-bucket
+TERRAFORM_ACCESS_KEY=terraform_access_key_123
+TERRAFORM_SECRET_KEY=terraform_secret_key_456
+
+# Application Configuration
+NODE_ENV=production
+LOG_LEVEL=info
+API_VERSION=v2
+RATE_LIMIT=1000
+SESSION_TIMEOUT=3600
+
+# Security
+ENCRYPTION_KEY=encryption_key_abcdef123456
+CORS_ORIGIN=https://app.company.com
+CSRF_SECRET=csrf_secret_789

@@ -1,0 +1,16 @@
+# Logging Server Dependencies
+# Phase 3: Centralized Logging System
+
+# Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+flask-cors==4.0.0
+
+# HTTP Requests
+requests==2.31.0
+
+# GeoIP Lookup
+ipapi==0.1.0
+
+# Database (SQLite is included with Python standard library)
+# Standard library modules: sqlite3, hashlib, json, datetime, logging
