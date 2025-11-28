@@ -6,7 +6,7 @@ import Analytics from './pages/Analytics';
 import MapView from './pages/MapView';
 import MLInsights from './pages/MLInsights';
 import Alerts from './pages/Alerts';
-import Investigation from './pages/Investigation';
+// import Investigation from './pages/Investigation';
 import ConnectionStatus from './components/ConnectionStatus';
 import './App.css';
 
@@ -21,7 +21,7 @@ function Navigation() {
     { path: '/map', label: 'Map View', icon: '🌍' },
     { path: '/ml-insights', label: 'ML Insights', icon: '🧠' },
     { path: '/alerts', label: 'Alerts', icon: '🚨' },
-    { path: '/investigate', label: 'Investigation', icon: '🔍' }
+    // { path: '/investigate', label: 'Investigation', icon: '🔍' }
   ];
 
   const toggleMenu = () => {
@@ -117,8 +117,8 @@ function App() {
           <Route path="/map" element={<MapView />} />
           <Route path="/ml-insights" element={<MLInsights />} />
           <Route path="/alerts" element={<Alerts />} />
-          <Route path="/investigate" element={<Investigation />} />
-          <Route path="/investigate/:ip" element={<Investigation />} />
+          {/* <Route path="/investigate" element={<Investigation />} /> */}
+          {/* <Route path="/investigate/:ip" element={<Investigation />} /> */}
         </Routes>
       </div>
     </Router>

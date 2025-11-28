@@ -1,0 +1,235 @@
+/* InvestigationPage.css */
+
+/* Reuse variables from AlertsPage.css implicitly, or redeclare if needed */
+:root {
+  --bg-dark: #000000;
+  --bg-card: #0f1115;
+  --bg-terminal: #09090b;
+  --border-color: #27272a;
+  --text-primary: #e4e4e7;
+  --text-secondary: #a1a1aa;
+  --accent-red: #ef4444;
+  --accent-green: #22c55e;
+}
+
+/* --- Layout --- */
+.inv-container {
+  min-height: 100vh;
+  padding: 1.5rem;
+  background-color: var(--bg-dark);
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
+}
+
+.inv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1.5rem;
+}
+
+.inv-title-group h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inv-id {
+  font-family: 'Fira Code', monospace;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.inv-status {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* --- The Grid --- */
+.inv-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .inv-grid {
+    grid-template-columns: 300px 1fr 300px;
+  }
+}
+
+/* --- Cards --- */
+.inv-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+  height: fit-content;
+}
+
+.card-header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+/* --- Attacker Profile (Left Col) --- */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.info-label { color: var(--text-secondary); }
+.info-value { font-family: 'Fira Code', monospace; color: white; }
+
+.geo-map-placeholder {
+  width: 100%;
+  height: 120px;
+  background: 
+    linear-gradient(rgba(39, 39, 42, 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(39, 39, 42, 0.5) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #050505;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* --- Terminal / Payload (Middle Col) --- */
+.terminal-window {
+  background-color: var(--bg-terminal);
+  font-family: 'Fira Code', monospace;
+  font-size: 0.875rem;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+}
+
+.terminal-line {
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.cmd-prompt { color: var(--accent-green); margin-right: 0.5rem; }
+.cmd-input { color: white; }
+.cmd-output { color: var(--text-secondary); margin-left: 1rem; display: block; }
+.hex-dump { color: #60a5fa; margin-top: 1rem; display: block; }
+
+/* --- Timeline (Right Col) --- */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--border-color);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--bg-dark);
+  border: 2px solid var(--text-secondary);
+  border-radius: 50%;
+  position: absolute;
+  left: -15px; /* Adjust based on parent padding */
+  top: 4px;
+}
+
+.timeline-time {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+  font-family: 'Fira Code', monospace;
+}
+
+.timeline-desc {
+  font-size: 0.875rem;
+  color: var(--text-primary);
+}
+
+/* --- Actions & Notes --- */
+.notes-area {
+  width: 100%;
+  background: #000;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.75rem;
+  border-radius: 4px;
+  min-height: 100px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.875rem;
+  resize: vertical;
+}
+
+.action-bar {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-danger {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--accent-red);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.btn-danger:hover { background-color: rgba(239, 68, 68, 0.2); }
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
